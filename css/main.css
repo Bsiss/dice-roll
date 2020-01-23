@@ -1,0 +1,15 @@
+.img{
+    border: 1px;
+    border-color: black;
+    position: relative;
+}
+
+.Btn{
+    background-color: royalblue;
+    color: whitesmoke ;
+    padding: 18px 34px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+
+}
