@@ -4,7 +4,7 @@
     position: relative;
 }
 
-div.box{
+#box{
     height: 100 px;
     width: 110 px;
     margin: 50 px;
@@ -23,4 +23,8 @@ div.box{
     text-align: center;
     display: inline-block;
     border-radius: 4px;
+}
+body {
+    text-align: center;
+
 }
