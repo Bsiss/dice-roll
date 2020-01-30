@@ -8,12 +8,14 @@ let dice = {
     }
 }
 
+// show output in the browser (dice and "you rolled")
 function getNumber(output) {
     var box = document.getElementById('box');
     box.innerHTML = output;
     landedOn.innerHTML = "you rolled: " + output;
 }
 
+// created a click function to my HTML element
 Btn.onclick = function() {
     var result = dice.activate();
     getNumber(result)
