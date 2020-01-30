@@ -1,3 +1,5 @@
+font-family: 'Ubuntu', sans-serif;
+
 .img{
     border: 1px;
     border-color: black;
@@ -26,5 +28,5 @@
 }
 body {
     text-align: center;
-
+    font-family: 'Ubuntu', sans-serif;
 }
