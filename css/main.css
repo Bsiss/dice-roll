@@ -4,8 +4,8 @@
     position: relative;
 }
 
-#box{
-    height: 110 px;
+.box{
+    height: 100 px;
     width: 110 px;
     margin: 50 px;
     border: 2 px royalblue;
