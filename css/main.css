@@ -4,7 +4,7 @@
     position: relative;
 }
 
-.box{
+div.box{
     height: 100 px;
     width: 110 px;
     margin: 50 px;

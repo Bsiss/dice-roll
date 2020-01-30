@@ -11,9 +11,15 @@ let dice = {
 function getNumber(output) {
     var box = document.getElementById('box');
     box.innerHTML = output;
+    landedOn.innerHTML = "you rolled: " + output;
 }
 
 Btn.onclick = function() {
     var result = dice.activate();
     getNumber(result)
 }
+
+// function getNumber(output) {
+//     var landedOn = document.getElementById('landedOn');
+//     .innerHTML = output;
+// } WAS TRYING TO ALSO MAKE "LANDEDON" VAR DISPLAY OUTPUT
